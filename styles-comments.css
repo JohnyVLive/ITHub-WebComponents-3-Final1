@@ -1,0 +1,31 @@
+/* Стили для блока комментариев */
+
+.comments {
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+.comments .comment{
+    background-color: #f2f2f2;
+}
+textarea {
+    width: 99%;
+    resize: none;
+    border: 1px solid orange;
+    padding-top: 20px;
+}
+
+button {
+    padding: 0.4rem 1rem;
+    border: solid black 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-right: 1rem;
+    background-color: #F9B640;
+
+    color: #FFFFFF;
+    font-weight: 400;
+}

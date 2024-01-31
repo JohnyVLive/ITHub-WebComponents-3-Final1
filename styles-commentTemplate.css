@@ -1,0 +1,9 @@
+/* Стили для каждого комментария */
+.comment {
+    /*padding-top: 1px;*/
+    padding: 0.5em;
+}
+.inner-comments {
+    margin-left: 20px;
+    border: #6a6a6a dotted 1px;
+}

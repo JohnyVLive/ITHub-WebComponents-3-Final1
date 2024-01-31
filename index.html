@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet">
+    <link href="styles-comments.css" rel="stylesheet">
+    <title>ITHub-WebComponents-3-Final1</title>
+</head>
+<body>
+<div id="app">
+    <div id="articles" class="news">
+        <h1>Вопросы и ответы про DevOps</h1>
+        <div>DevOps становится все более популярным способом создания и развертывания приложений,
+            что привело к росту спроса на специалистов DevOps. В этой статье будут рассмотрены
+            некоторые из наиболее часто задаваемых вопросов интервью DevOps и ответы на них.
+            Использование этих вопросов в качестве основных для изучения может увеличить ваши
+            шансы получить работу, или, если вы являетесь рекрутером, они могут помочь вам в процессе найма.</div>
+    </div>
+    <x-comment></x-comment>
+</div>
+
+<template id="commentTemplate">
+    <link href="styles-commentTemplate.css" rel="stylesheet">
+    <div class="comment">
+        <p><slot></slot></p>
+        <button class="like-btn">Лайк <span class="like-count">0</span></button>
+        <button class="reply-btn">Ответить</button>
+        <button class="delete-btn">Удалить</button>
+        <div class="inner-comments"></div>
+    </div>
+</template>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

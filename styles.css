@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&family=Titillium+Web&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#articles {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #bfbfbf
+}
+
+
